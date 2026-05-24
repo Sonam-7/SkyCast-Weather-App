@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="container">
+
+    <header>
+      <div class="logo">W</div>
+
+      <div>
+        <h1>Weather App</h1>
+        <p class="small">Enter a city to see current weather</p>
+      </div>
+
+      <button type="button" id="themeToggle" aria-label="Toggle Theme">
+        🌙
+      </button>
+    </header>
+
+    <div class="search">
+      <label for="city">City Name</label>
+
+      <input
+        id="city"
+        type="text"
+        placeholder="e.g. Mumbai, New York"
+      />
+
+      <button type="button" id="getWeather">
+        Get Weather
+      </button>
+
+      <button type="button" id="voiceBtn" aria-label="Voice Search">
+        🎤
+      </button>
+    </div>
+
+    <button
+      type="button"
+      id="currentLocationBtn"
+    >
+      📍 Use Current Location
+    </button>
+
+    <div id="weatherResult" class="weather-card hint">
+      No data yet — please enter a city and click Get Weather.
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
