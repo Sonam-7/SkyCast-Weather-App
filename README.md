@@ -1,5 +1,7 @@
 # SkyCast-Weather-App
 A responsive and modern Weather Application built using HTML, CSS, and JavaScript that provides real-time weather updates and 5-day weather forecasts using the OpenWeather API.
+
+
 🚀 Features
 🌍 Search weather by city name
 📍 Get weather using current location
@@ -10,6 +12,8 @@ A responsive and modern Weather Application built using HTML, CSS, and JavaScrip
 📱 Fully responsive design
 ⚡ Real-time API data fetching
 ❌ Error handling for invalid cities
+
+
 🛠 Technologies Used
 HTML5
 CSS3
